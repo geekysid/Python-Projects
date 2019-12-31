@@ -1,0 +1,24 @@
+Project Title
+    Generating a game - 7 Up and 7 Down will all possible functionalities.
+
+Versions:
+    1.0 - A very basic version which just take user's choice and prints results accordingly.
+    
+    2.0 - In this version, we add following functionalities.
+            a. Keep playing the game until user wants to quit.
+            b. Maintaining and displaying scores after every match.
+    
+    3.0 - In this version, we add following functionalities.
+            a. Adding odds to each possible outcome 
+            b. Allowing user to add stakes on each of his call.
+    
+    4.0 - In this version, we add following functionalities.
+            a. Allowing user to create account to
+                i. User to access his old data/states  
+               ii. Store his states in a file
+            b. Allowing user to add stakes on each of his call.
+    
+     5.0 - In this version we replace file storing system to database system to store user data
+
+Coder: Siddhant Shah
+
