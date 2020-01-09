@@ -36,10 +36,15 @@
 <!-- Synopsis of the Repository -->
 ## Synopsis
 <p align="justify">
-    7 Up 7 Down is a classic party game and I am sure we all must have played it at some point in our life. Just to brief up, in this game two dices are thrown and one has to guess the sum of 2  dices. He can choose if the sum will be more then 7 (7 Up), or if the sum will be less then 7 (7 Down), or if the sum will be equal to 7 (7) and stake money on this choice. Depending on the outcome, he will get his win or lose his money. 
+    In this repository, I will have codes for a few projects which I will be doing in order to test my python skills. I will code the project in different versions, starting from the very basic version and then going up to a level where we will be using databases to store the important details of the project and make it a complete app.
     <br /><br />
-    In this project, I have coded the game in python. Depending on different versions, one can play any number of games in one go and quit at any given time. One can even create his username password and use this account to store all the results of the games he has played and the money/points he has earned or lost.
+    Few of the code I have in mind are:
 </p>
+
+- [7Up 7Down](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down "7UP 7DOWN")
+
+- [Rock Paper Scissor]() - Coming Soon.
+
 
 <!-- Pre-requisites and Installations required before going ahead -->
 ## Pre-requisites/Installation

@@ -1,14 +1,12 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/59141234/71907324-cbf3e880-3191-11ea-98b4-8201e1596b51.png" height="150px" />
 </p>
-<h3 align="center">
-    7 Up 7 Down Game
-</h3>
+<h3 align="center">7 Up 7 Down Game Version 3.0</h3>
 <p align="center">
-    Pythonic code of a legendary party game
+    Pythonic code of a legendary party game 
     <br />
-    <a href="https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down">
-        View Project
+    <a href="https://github.com/siddhantshah1986/Python-Projects/blob/master/Game%20-%207up%207down/7up-7down%20Version%203.0/7up_7Down.py">
+        View Code
     </a>
     &nbsp;&nbsp;·&nbsp;&nbsp;
     <a href="https://github.com/siddhantshah1986/Python-Projects/issues">
@@ -26,18 +24,19 @@
 > * [Synopsis](#synopsis)
 > * [Pre-requisites/Installation](#Pre-requisites/Installation)
 > * [Coding Language](#Coding-Language)
-> * [Versions](#Versions)
+> * [Libraries](#Libraries)
+> * [Concepts](#Concepts)
 > * [Contributing / Reporting issues](#contributing--reporting-issues) 
 > * [Show Your Support](#Show-Your-Support)
 > * [About Coder](#about-me)
 > * [Disclaimer](#Disclaimer)
 
-<!-- Synopsis -->
+
 ## Synopsis
 <p align="justify">
-    7 Up 7 Down is a classic party game and I am sure we all must have played it at some point in our life. Just to brief up, in this game two dices are thrown and one has to guess the sum of 2  dices. He can choose if the sum will be more then 7 (7 Up), or if the sum will be less then 7 (7 Down), or if the sum will be equal to 7 (7) and stake money on this choice. Depending on the outcome, he will get his win or lose his money. 
+    7 Up 7 Down is a classic party game and I am sure we all must have played it at some point in our life. Just to brief up, in this game two dices are thrown and one has to guess the sum of 2  dices. He can choose if the sum will be more then 7 (7 Up), or if the sum will be less then 7 (7 Down), or if the sum will be equal to 7 (7) and stake money on this choice. Depending on the outcome, he will win or loose. 
     <br /><br />
-    In this project, I have coded the game in python. Depending on different versions, one can play any number of games in one go and quit at any given time. One can even create his username password and use this account to store all the results of the games he has played and the money/points he has earned or lost.
+    In this version (3.0) of the game, we have added odds for each event (7up, 7down, 7) and gifted them $100 once game start. We allow the user to put money on their calls. Another functionality is that the money of the user is maintained through out the game and once the user has lost money, the game ends. User can also quit the game whenever he wants but doing so all his money will be gone as we are not saving anything in any kind of database.
 </p>
 
 <!-- Pre-requisites and installation required before working on this project -->
@@ -48,18 +47,31 @@ Just need to install python3 in your system.
 
     `python --version`
 
-- If you dont have Python then you can install the same from [here](https://www.python.org/downloads/)
+- If you don't have Python then you can install the same from [here](https://www.python.org/downloads/)
 
 <!-- Coding Language used in this project -->
 ## Coding Language
 Coding language in which the solution are provided here is:
 - **Python**
 
-<!-- Details about the version of this project -->
-## Versions
-- [1.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7Down%20Version%201.0) - A very basic verison of the game where a user can just play a one game at a time. This will act as the base over which the future versions will be built.
-- [2.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7down%20Version%202.0) - An update to version 1.0 where a user can play multiple games in one go and can quit game whenever he wants. This versions also has a functionality of displaying scores after every game.
-- [3.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7down%20Version%202.0) - An update to version 2.0 where a user can put money on their bets as we have added odds for each outcome of the game. This version also has a functionality of maintaining scores depending on users' call, odds of the event and outcome of the game and once the user loses all money, the game ends.
+<!-- Libraries I have used in this project -->
+## Libraries
+- *random* - this library is imported and we have used a function randint() which returns a random number between 1st and 2nd parameter
+
+    ```python
+    from random import randint
+
+    random_number = random.randint(1, 6)  # to get random number between 1 and 6
+    ```
+
+<!-- Concept that will be tested in this project -->
+## Concepts
+- **OOPs**
+  - Created a class called *Dice* that creates a random number between 1 and 6 for a dice and has its string representation set to the random number generated. 
+
+  - Created a class called *People* that hold result of every dame for a user and added few extra attributes to the class.
+
+- **Functions** - To make use of code and refrain from writing same code again and again.
 
 <!-- Asking for Contributions and Issues -->
 ## Contributing / Reporting issues
@@ -91,3 +103,7 @@ Please give this project a :star: if you liked this project.
 [Mail Me](mailto:siddhant.shah.1986@gmail.com "siddhant.shah.1986@gmail.com")
 &emsp;&emsp;
 [My Resume](mailto:siddhant.shah.1986@gmail.com "siddhant.shah.1986@gmail.com")
+
+
+## Disclamer
+Pic used in th elogo of this project is taken from google. Please dont sue me for use of the same. :sweat_smile:

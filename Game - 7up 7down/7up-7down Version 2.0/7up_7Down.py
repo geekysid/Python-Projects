@@ -15,12 +15,6 @@ class Dice:
     """
     def __init__(self):
         self._value = int(randint(1, 6))
-    
-    # def dice_with_6_side():
-    #     self._value = int(randint(1, 6))
-
-    # def dice_with_12_side():
-    #     self._value = int(randint(1, 12))
 
 
 class Player:
@@ -99,12 +93,16 @@ def game_7Up7Down(player):
         
         if guessed_number == '1' and dice1+dice2 > 7:   # if user selects more then 7 and sum of 2 dice is also more the 7
             print("You WON")
-         elif guessed_number == '2' and dice1+dice2 < 7:  # if user selects less then 7 and sum of 2 dice is also less the 7
+            result = "WON"
+        elif guessed_number == '2' and dice1+dice2 < 7:  # if user selects less then 7 and sum of 2 dice is also less the 7
             print("You WON")
+            result = "WON"
         elif guessed_number == '3' and dice1+dice2 == 7:    # if user selects sum of 2 dice is equal to 7 and result is also 7
             print("You WON")
-        else:   # for everyother condition
+            result = "WON"
+        else:                                           # for everyother condition
             print("You LOST")
+            result = "LOST"
         
         # calling functionto displayt outcome.
         game_result_display(player, result, dice_dict)
