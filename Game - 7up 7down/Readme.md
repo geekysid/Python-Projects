@@ -59,7 +59,8 @@ Coding language in which the solution are provided here is:
 ## Versions
 - [1.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7Down%20Version%201.0) - A very basic verison of the game where a user can just play a one game at a time. This will act as the base over which the future versions will be built.
 - [2.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7down%20Version%202.0) - An update to version 1.0 where a user can play multiple games in one go and can quit game whenever he wants. This versions also has a functionality of displaying scores after every game.
-- [3.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7down%20Version%202.0) - An update to version 2.0 where a user can put money on their bets as we have added odds for each outcome of the game. This version also has a functionality of maintaining scores depending on users' call, odds of the event and outcome of the game and once the user loses all money, the game ends.
+- [3.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7down%20Version%203.0) - An update to version 2.0 where a user can put money on their bets as we have added odds for each outcome of the game. This version also has a functionality of maintaining scores depending on users' call, odds of the event and outcome of the game and once the user loses all money, the game ends.
+- [4.0](https://github.com/siddhantshah1986/Python-Projects/tree/master/Game%20-%207up%207down/7up-7down%20Version%204.0) - An update to version 3.0
 
 <!-- Asking for Contributions and Issues -->
 ## Contributing / Reporting issues
