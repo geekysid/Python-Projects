@@ -1,0 +1,16 @@
+RPS Version 1.0:
+    This is a very basic version of RPS with only functionality being used are use of variables,
+    if-elif-else statements, taking user input, and printing result
+
+RPS Version 1.1:
+    An update to basic version of RPS. This program converts inout text to upper case and does all testing
+    using upper case. This removes any ambiguity about lower and upper case
+
+RPS Version 1.2:
+    This version makes sure that user has entered valid input. If not then making user to enter the correct input
+
+RPS Version 2.0:
+    This version makes user keep on playing the game till user enter 'Q' to quit
+
+RPS Version 2.1:
+    This version add the functionality of displaying score of user and computer after every game
